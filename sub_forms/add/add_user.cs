@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace anprMGT
 {
-    public partial class Form3 : Form
+    public partial class add_user : Form
     {
-        public Form3()
+        public add_user()
         {
             InitializeComponent();
         }

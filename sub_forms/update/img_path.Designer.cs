@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form13
+    partial class img_path
     {
         /// <summary>
         /// Required designer variable.

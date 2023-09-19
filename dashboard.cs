@@ -12,9 +12,9 @@ using System.Data.SqlClient;
 
 namespace anprMGT
 {
-    public partial class Form2 : Form
+    public partial class dashboard : Form
     {
-        public Form2()
+        public dashboard()
         {
             InitializeComponent();
         }
@@ -46,44 +46,44 @@ namespace anprMGT
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form3 form3 = new Form3();
+            add_user form3 = new add_user();
             form3.Show();
         }
 
         private void modifyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form4 form4 = new Form4();
+            change_pass form4 = new change_pass();
             form4.Show();
 
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form5 form5 = new Form5();
+            del_user form5 = new del_user();
             form5.Show();
         }
 
         private void categoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form6 form6 = new Form6();
+            add_category form6 = new add_category();
             form6.Show();
         }
 
         private void deleteToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            Form7 form7 = new Form7();
+            del_category form7 = new del_category();
             form7.Show();
         }
 
         private void addToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            Form8 form8 = new Form8();
+            add_numbers form8 = new add_numbers();
             form8.Show();
         }
 
         private void deleteToolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            Form9 form9 = new Form9();
+            del_numbers form9 = new del_numbers();
             form9.Show();
         }
 
@@ -104,25 +104,25 @@ namespace anprMGT
 
         private void addToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form10 form10 = new Form10();
+            add_devices form10 = new add_devices();
             form10.Show();
         }
 
         private void deleteToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            Form11 form11 = new Form11();
+            remove_devices form11 = new remove_devices();
             form11.Show();
         }
 
         private void retentionTimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form12 form12 = new Form12();
+            retention_time form12 = new retention_time();
             form12.Show();
         }
 
         private void imageStoreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form13 form13 = new Form13();
+            img_path form13 = new img_path();
             form13.Show();
         }
     }

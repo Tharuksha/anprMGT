@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form7
+    partial class del_category
     {
         /// <summary>
         /// Required designer variable.

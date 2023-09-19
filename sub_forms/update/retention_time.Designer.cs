@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form12
+    partial class retention_time
     {
         /// <summary>
         /// Required designer variable.

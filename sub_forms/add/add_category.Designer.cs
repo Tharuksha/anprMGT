@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form6
+    partial class add_category
     {
         /// <summary>
         /// Required designer variable.

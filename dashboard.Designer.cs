@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form2
+    partial class dashboard
     {
         /// <summary>
         /// Required designer variable.

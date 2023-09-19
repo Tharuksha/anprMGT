@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace anprMGT
 {
-    public partial class Form10 : Form
+    public partial class add_devices : Form
     {
         
-        public Form10()
+        public add_devices()
         {
             InitializeComponent();
         }

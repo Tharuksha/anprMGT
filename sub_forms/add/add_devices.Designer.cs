@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form10
+    partial class add_devices
     {
         /// <summary>
         /// Required designer variable.

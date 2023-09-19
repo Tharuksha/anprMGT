@@ -11,10 +11,10 @@ using System.Data.SqlClient;
 
 namespace anprMGT
 {
-    public partial class Form9 : Form
+    public partial class del_numbers : Form
     {
         string computerip = login.computerip;
-        public Form9()
+        public del_numbers()
         {
             InitializeComponent();
         }

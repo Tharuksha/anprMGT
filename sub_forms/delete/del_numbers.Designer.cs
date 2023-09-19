@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form9
+    partial class del_numbers
     {
         /// <summary>
         /// Required designer variable.

@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace anprMGT
 {
-    public partial class Form12 : Form
+    public partial class retention_time : Form
     {
-        public Form12()
+        public retention_time()
         {
             InitializeComponent();
 

@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form11
+    partial class remove_devices
     {
         /// <summary>
         /// Required designer variable.

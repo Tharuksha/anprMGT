@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form5
+    partial class del_user
     {
         /// <summary>
         /// Required designer variable.

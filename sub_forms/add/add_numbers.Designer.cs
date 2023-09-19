@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form8
+    partial class add_numbers
     {
         /// <summary>
         /// Required designer variable.

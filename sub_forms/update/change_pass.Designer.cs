@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form4
+    partial class change_pass
     {
         /// <summary>
         /// Required designer variable.

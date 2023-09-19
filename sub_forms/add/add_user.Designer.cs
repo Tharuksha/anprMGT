@@ -1,7 +1,7 @@
 ﻿
 namespace anprMGT
 {
-    partial class Form3
+    partial class add_user
     {
         /// <summary>
         /// Required designer variable.

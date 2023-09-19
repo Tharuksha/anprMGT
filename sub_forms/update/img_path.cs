@@ -11,9 +11,9 @@ using System.Data.SqlClient;
 
 namespace anprMGT
 {
-    public partial class Form13 : Form
+    public partial class img_path : Form
     {
-        public Form13()
+        public img_path()
         {
             InitializeComponent();
         }
