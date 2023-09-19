@@ -69,7 +69,7 @@ namespace anprMGT
 
                         labelStatus.Text = "✅ Connected";
                         await Task.Delay(1000);
-                        Form2 form2 = new Form2();
+                        dashboard form2 = new dashboard();
                         form2.Show();
                         form2 = null;
                         this.Hide();
