@@ -21,7 +21,7 @@ namespace anprMGT
 
         private void buttonAdd_Click(object sender, EventArgs e)
         {
-            string computerip = Form1.computerip;
+            string computerip = login.computerip;
 
             string devicename = textBoxDname.Text;
             string deviceip = textBoxIp.Text;

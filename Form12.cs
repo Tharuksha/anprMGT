@@ -21,7 +21,7 @@ namespace anprMGT
 
         private void buttonSet_Click(object sender, EventArgs e)
         {
-            string computerip = Form1.computerip;
+            string computerip = login.computerip;
             string rettime = textBoxRetention.Text;
             
             if(string.IsNullOrEmpty(rettime))
@@ -50,7 +50,7 @@ namespace anprMGT
         private void Form12_Load(object sender, EventArgs e)
         {
             //textBoxRetention.Text = "30";
-            string computerip = Form1.computerip;
+            string computerip = login.computerip;
             string SqlConnectionString = $"Server={computerip};Database=anpr;Uid=sa;Pwd=ant@1234";
             SqlConnection conn = new SqlConnection(SqlConnectionString);
             conn.Open();

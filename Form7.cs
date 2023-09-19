@@ -13,7 +13,7 @@ namespace anprMGT
 {
     public partial class Form7 : Form
     {
-        string computerip = Form1.computerip;
+        string computerip = login.computerip;
         public Form7()
         {
             InitializeComponent();

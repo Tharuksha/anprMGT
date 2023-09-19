@@ -13,7 +13,7 @@ namespace anprMGT
 {
     public partial class Form4 : Form
     {
-        string computerip = Form1.computerip;
+        string computerip = login.computerip;
         public Form4()
         {
             InitializeComponent();
@@ -21,7 +21,7 @@ namespace anprMGT
 
         private void Form4_Load(object sender, EventArgs e)
         {
-            string computerip = Form1.computerip;
+            string computerip = login.computerip;
 
             Dictionary<string, string> comboUsers = new Dictionary<string, string>();
             string SqlConnectionString = $"Server={computerip};Database=anpr;Uid=sa;Pwd=ant@1234";

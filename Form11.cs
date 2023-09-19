@@ -21,7 +21,7 @@ namespace anprMGT
 
         private void Form11_Load(object sender, EventArgs e)
         {
-            string computerip = Form1.computerip;
+            string computerip = login.computerip;
 
             Dictionary<string, string> comboDevices = new Dictionary<string, string>();
             string SqlConnectionString = $"Server={computerip};Database=anpr;Uid=sa;Pwd=ant@1234";
@@ -47,7 +47,7 @@ namespace anprMGT
 
         private void buttonDelete_Click(object sender, EventArgs e)
         {
-            string computerip = Form1.computerip;
+            string computerip = login.computerip;
             string devicename = comboBoxDevice.Text;
             string SqlConnectionString = $"Server={computerip};Database=anpr;Uid=sa;Pwd=ant@1234";
             SqlConnection conn = new SqlConnection(SqlConnectionString);
