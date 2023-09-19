@@ -133,6 +133,7 @@ namespace anprMGT
             this.button2.TabIndex = 9;
             this.button2.Text = "-";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -149,6 +150,7 @@ namespace anprMGT
             this.button1.Text = "X";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // panel2
             // 
@@ -215,6 +217,7 @@ namespace anprMGT
             this.buttonConnect.TabIndex = 28;
             this.buttonConnect.Text = "🔌 CONNECT";
             this.buttonConnect.UseVisualStyleBackColor = false;
+            this.buttonConnect.Click += new System.EventHandler(this.buttonConnect_Click_1);
             // 
             // label7
             // 
