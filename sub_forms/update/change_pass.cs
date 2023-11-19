@@ -75,5 +75,10 @@ namespace anprMGT
                 MessageBox.Show("Password has been changed");
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
