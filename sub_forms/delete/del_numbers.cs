@@ -84,5 +84,10 @@ namespace anprMGT
 
             MessageBox.Show("Successfully removed");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

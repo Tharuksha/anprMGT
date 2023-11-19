@@ -46,45 +46,45 @@ namespace anprMGT
 
         private void addToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            add_user form3 = new add_user();
-            form3.Show();
+            add_user add_User = new add_user();
+            add_User.Show();
         }
 
         private void modifyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            change_pass form4 = new change_pass();
-            form4.Show();
+            change_pass change_pass = new change_pass();
+            change_pass.Show();
 
         }
 
         private void deleteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            del_user form5 = new del_user();
-            form5.Show();
+            del_user del_user = new del_user();
+            del_user.Show();
         }
 
         private void categoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            add_category form6 = new add_category();
-            form6.Show();
+            add_category add_category = new add_category();
+            add_category.Show();
         }
 
         private void deleteToolStripMenuItem3_Click(object sender, EventArgs e)
         {
-            del_category form7 = new del_category();
-            form7.Show();
+            del_category del_category = new del_category();
+            del_category.Show();
         }
 
         private void addToolStripMenuItem2_Click(object sender, EventArgs e)
         {
-            add_numbers form8 = new add_numbers();
-            form8.Show();
+            add_numbers add_numbers = new add_numbers();
+            add_numbers.Show();
         }
 
         private void deleteToolStripMenuItem4_Click(object sender, EventArgs e)
         {
-            del_numbers form9 = new del_numbers();
-            form9.Show();
+            del_numbers del_numbers = new del_numbers();
+            del_numbers.Show();
         }
 
         private void Form2_Load(object sender, EventArgs e)
@@ -104,26 +104,41 @@ namespace anprMGT
 
         private void addToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            add_devices form10 = new add_devices();
-            form10.Show();
+            add_devices add_devices = new add_devices();
+            add_devices.Show();
         }
 
         private void deleteToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            remove_devices form11 = new remove_devices();
-            form11.Show();
+            remove_devices remove_devices = new remove_devices();
+            remove_devices.Show();
         }
 
         private void retentionTimeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            retention_time form12 = new retention_time();
-            form12.Show();
+            retention_time retention_time = new retention_time();
+            retention_time.Show();
         }
 
         private void imageStoreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            img_path form13 = new img_path();
-            form13.Show();
+            img_path img_path = new img_path();
+            img_path.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
         }
     }
 }
