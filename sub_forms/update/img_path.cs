@@ -54,5 +54,10 @@ namespace anprMGT
             MessageBox.Show("Image store has been changed");
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

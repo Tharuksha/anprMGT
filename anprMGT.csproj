@@ -141,6 +141,9 @@
     <EmbeddedResource Include="sub_forms\delete\remove_devices.resx">
       <DependentUpon>remove_devices.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="sub_forms\update\img_path.resx">
+      <DependentUpon>img_path.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="sub_forms\update\retention_time.resx">
       <DependentUpon>retention_time.cs</DependentUpon>
     </EmbeddedResource>
