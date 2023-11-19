@@ -121,7 +121,7 @@ namespace anprMGT
             this.modifyToolStripMenuItem.BackColor = System.Drawing.SystemColors.ControlText;
             this.modifyToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.modifyToolStripMenuItem.Name = "modifyToolStripMenuItem";
-            this.modifyToolStripMenuItem.Size = new System.Drawing.Size(180, 28);
+            this.modifyToolStripMenuItem.Size = new System.Drawing.Size(147, 28);
             this.modifyToolStripMenuItem.Text = "Modify";
             this.modifyToolStripMenuItem.Click += new System.EventHandler(this.modifyToolStripMenuItem_Click);
             // 
@@ -367,9 +367,8 @@ namespace anprMGT
             this.label8.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label8.Location = new System.Drawing.Point(3, 55);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(53, 55);
+            this.label8.Size = new System.Drawing.Size(0, 55);
             this.label8.TabIndex = 4;
-            this.label8.Text = "4";
             // 
             // label9
             // 
@@ -416,7 +415,7 @@ namespace anprMGT
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(53, 55);
             this.label11.TabIndex = 4;
-            this.label11.Text = "3";
+            this.label11.Text = "5";
             this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12

@@ -89,7 +89,8 @@ namespace anprMGT
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            
+            UserCount();
+            Cameracount();
         }
         private void Form2_FormClosing(object sender, EventArgs e)
         {
@@ -139,6 +140,70 @@ namespace anprMGT
         private void button2_Click(object sender, EventArgs e)
         {
             this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void Cameracount()
+        {
+            string computerip = login.computerip;
+            string connectionString = $"Server={computerip};Database=anpr;Uid=sa;Pwd=ant@1234";
+
+            string query = "SELECT COUNT(*) FROM anpr_devices";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    try
+                    {
+
+                        connection.Open();
+
+                        int count = (int)command.ExecuteScalar();
+
+                        label8.Text = count.ToString();
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("Error: " + ex.Message);
+                    }
+                }
+            }
+        }
+
+        private void UserCount()
+        {
+            string computerip = login.computerip;
+            // Connection string for your database
+            string connectionString = $"Server={computerip};Database=anpr;Uid=sa;Pwd=ant@1234";
+
+            // SQL query to get the count of items
+            string query = "SELECT COUNT(*) FROM anpr_users";
+
+            // Create a connection
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                // Create a command
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    try
+                    {
+                        // Open the connection
+                        connection.Open();
+
+                        // Execute the command and retrieve the count
+                        int count = (int)command.ExecuteScalar();
+
+                        // Display the count in a text field
+                        label11.Text = count.ToString();
+                    }
+                    catch (Exception ex)
+                    {
+                        // Handle exceptions here
+                        Console.WriteLine("Error: " + ex.Message);
+                    }
+                }
+            }
         }
     }
 }
